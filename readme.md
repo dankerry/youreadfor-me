@@ -30,12 +30,12 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## How to complete a form screen
 
-1. [ ] Use [./screens/FormStarter.vue](./screens/FormStarter.vue) as a template
-2. [ ] Copy [./api/person.js](./api/person.js)
-3. [ ] Get your API data with axios in [./pages/index.vue](./pages/index.vue)
-4. [ ] Hook up all the form fields
-5. [ ] Hook up your validation rules https://logaretm.github.io/vee-validate/guide/rules.html#rules
-6. [ ] POST the form to your API
-7. [ ] Test it
-8. [ ] Send a screenshot or video
-9. [ ] Push to your git repo
+1. Use [./screens/FormStarter.vue](./screens/FormStarter.vue) as a template
+2. Copy [./api/person.js](./api/person.js)
+3. Get your API data with axios in [./pages/index.vue](./pages/index.vue)
+4. Hook up all the form fields
+5. Hook up your validation rules https://logaretm.github.io/vee-validate/guide/rules.html#rules
+6. POST the form to your API
+7. Test it
+8. Send a screenshot or video
+9. Push to your git repo
