@@ -7,6 +7,9 @@ The hope is that it gives a smooth launchpad for your projects. Please fork this
 ## Development
 
 ```sh
+git clone https://code.youreadfor.me/yrfm-org/screen-starter-project.git
+cd screen-starter-project
+
 # install dependencies
 npm install
 
