@@ -68,4 +68,5 @@ Use what we have in this repository.
 + ✅ use [lodash](https://lodash.com/docs)
 + ✅ use [nuxt](https://nuxtjs.org/api)
 + ✅ use [vue](https://vuejs.org/v2/api/)
++ ✅ use [fontawesome](https://fontawesome.com/icons)
 
