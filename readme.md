@@ -7,6 +7,7 @@ The hope is that it gives a smooth launchpad for your projects. Please fork this
 ## Development
 
 ```sh
+# fork it or clone from here
 git clone https://code.youreadfor.me/yrfm-org/screen-starter-project.git
 cd screen-starter-project
 
@@ -52,3 +53,19 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 7. Test it
 8. Send a screenshot or video
 9. Push to your git repo
+
+## Third-party libraries
+
+Do not install third-party libraries without asking first.
+
++ 🚫 no jQuery
++ 🚫 no bootstrap
++ 🚫 no material design
+
+Use what we have in this repository.
+
++ ✅ use [bulma](https://bulma.io/documentation)
++ ✅ use [lodash](https://lodash.com/docs)
++ ✅ use [nuxt](https://nuxtjs.org/api)
++ ✅ use [vue](https://vuejs.org/v2/api/)
+
