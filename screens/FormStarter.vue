@@ -160,6 +160,17 @@ export default {
           Help can be over on the right. Check out the validation by clicking
           around the fields and changing them.
         </p>
+
+        <hr />
+
+        <div>
+          <i style="font-size: 2rem" class="fab fa-accessible-icon"></i> Icons
+          are already installed.
+          <i
+            style="font-size: 2rem"
+            class="fa fa-american-sign-language-interpreting"
+          ></i>
+        </div>
       </div>
     </div>
   </div>
