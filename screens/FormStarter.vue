@@ -163,13 +163,9 @@ export default {
 
         <hr />
 
-        <div>
-          <i style="font-size: 2rem" class="fab fa-accessible-icon"></i> Icons
-          are already installed.
-          <i
-            style="font-size: 2rem"
-            class="fa fa-american-sign-language-interpreting"
-          ></i>
+        <div class="is-size-3">
+          <i class="fab fa-accessible-icon"></i> Icons are already installed.
+          <i class="fa fa-american-sign-language-interpreting"></i>
         </div>
       </div>
     </div>

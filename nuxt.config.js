@@ -1,3 +1,5 @@
+import { join } from "path";
+
 export default {
   /*
    ** Nuxt target
@@ -44,7 +46,12 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
+  components: [join(__dirname, "components"), join(__dirname, "screens")],
+
+  styleResources: {
+    sass: [],
+    stylus: []
+  },
 
   /*
    ** Nuxt.js dev-modules
@@ -54,7 +61,10 @@ export default {
     "@nuxtjs/eslint-module",
 
     // Doc: https://github.com/nuxt-community/stylelint-module
-    "@nuxtjs/stylelint-module"
+    "@nuxtjs/stylelint-module",
+
+    // https://github.com/nuxt-community/style-resources-module#readme
+    "@nuxtjs/style-resources"
   ],
 
   /*

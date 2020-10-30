@@ -70,3 +70,14 @@ Use what we have in this repository.
 + ✅ use [vue](https://vuejs.org/v2/api/)
 + ✅ use [fontawesome](https://fontawesome.com/icons)
 
+## Styles and CSS
+
+Don't add third-party stylesheets unless you are given permission first.
+
++ 🚫 no LESS
++ ⚠️ avoid `style="..."` attribute
+
+It's preferred to use what we have installed for you to use here.
+
++ ✅ use [bulma](https://bulma.io/documentation)
++ ✅ use [stylus](https://stylus-lang.com)

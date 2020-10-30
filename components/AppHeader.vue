@@ -1,4 +1,5 @@
 <script>
+import "./AppHeader.styl";
 const name = "AppHeader";
 
 const components = {};
@@ -10,7 +11,12 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav
+    id="app-header"
+    class="navbar"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
         <img src="/headphones-mic02-favicon.png" height="32" />
