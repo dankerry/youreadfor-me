@@ -1,14 +1,10 @@
 export default {
   /*
-   ** Nuxt rendering mode
-   ** See https://nuxtjs.org/api/configuration-mode
-   */
-  mode: "universal",
-  /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
    */
   target: "server",
+
   /*
    ** Headers of the page
    ** See https://nuxtjs.org/api/configuration-head
@@ -26,38 +22,52 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
+
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    // ⚠️ do not add other icon packs
+    "@fortawesome/fontawesome-free/css/fontawesome.min.css",
+    "@fortawesome/fontawesome-free/css/solid.min.css",
+    "@fortawesome/fontawesome-free/css/brands.min.css",
+    "@fortawesome/fontawesome-free/css/regular.min.css"
+  ],
+
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
   plugins: ["~/plugins/vee-validate"],
+
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
   components: true,
+
   /*
    ** Nuxt.js dev-modules
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     "@nuxtjs/eslint-module",
+
     // Doc: https://github.com/nuxt-community/stylelint-module
     "@nuxtjs/stylelint-module"
   ],
+
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     "@nuxtjs/bulma",
+
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios"
   ],
+
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -65,6 +75,9 @@ export default {
   axios: {
     proxy: true
   },
+
+  proxy: {},
+
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
@@ -85,5 +98,7 @@ export default {
     port: 10101
   },
 
-  serverMiddleware: [{ path: "/api/person", handler: "~/api/person.js" }]
+  serverMiddleware: [{ path: "/api/person", handler: "~/api/person.js" }],
+
+  telemetry: false
 };
