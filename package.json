@@ -17,7 +17,7 @@
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.12.1",
+    "eslint-config-developit": "^1.2.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -37,5 +37,8 @@
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "npm run lint:js && npm run lint:style",
     "clean": "rm -rf .nuxt"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-developit"
   }
 }

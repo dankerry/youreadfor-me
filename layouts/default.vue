@@ -1,8 +1,8 @@
 <template>
   <div id="starter-outer">
-    <AppHeader />
+    <TheHeader />
     <Nuxt />
-    <AppFooter />
+    <TheFooter />
   </div>
 </template>
 
